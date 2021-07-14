@@ -11,7 +11,7 @@ body{
     height: 695px;
     display:flex;
 }
-h1{
+#heading1{
     color:white;
     font-size: 64px;
     font-style: bold;
@@ -70,4 +70,53 @@ h1{
     margin-bottom: 27px;
     border-radius: 11px;
 
+}
+.player-heading{
+    font-weight: 700;
+}
+.player p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #6C6C6C;
+    margin-bottom: 10px;
+
+}
+/* --------------------------------bonus part ------------------------------------------------*/
+.bonus-optional{
+    display:flex;
+}
+.bonus-ca{
+    width:466px;
+    height:280px;
+    padding:70px;
+    box-shadow: 0px 0px 40px 0px #00000026;
+    margin-right: 50px;
+    margin-left: 60px;
+    border-radius: 5px;
+    color: #6C6C6C;
+}
+.bonus-ca-image img{
+    width:567px;
+    height:427px;
+    border-radius: 5px;
+
+}
+.bonus-1{
+    background-color:lightblue;
+    margin: 70px;
+    padding: 20px;
+    border-radius:10px;
+    box-shadow: 0px 0px 40px 0px #00000026;
+}
+.bonus-2{
+    background-color:  #2D25A0;
+    margin:70px;
+    display:block;
+    text-align:center;
+    border-radius: 10px;
+}
+.bonus-2 form{
+    color:white;
+    padding:25px;
+    
 }
