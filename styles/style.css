@@ -1,2 +1,53 @@
+/* --------------------------fonts------------------------ */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+ /* -----------top portion styles---------------------------------- */
+.top{
+    background-color: #2D25A0;
+    width:100%;
+    height: 695px;
+    display:flex;
+}
+h1{
+    color:white;
+    font-size: 64px;
+    font-style: bold;
+   
+}
+.heading{
+    width: 485px;
+    height: 230px;
+    padding-top: 207px;
+    padding-left:156px;
+}
+#Watch-live{
+    color:white;
+    width:168px;
+    height:44px;
+    padding: 10px 24px;
+    background-color: #E02C6D;
+    ;
+}
+.fa-arrow-right{
+    color: white;
+    font-weight: 700;
+    padding-left: 7px;
+}
+.football-image img{
+    width:556px;
+    height:438px;
+    padding-top:153px;
+    
+}
+.football-image{
+    padding-left: 74px;
 
+}
+.football-image:hover img{
+    transform:scale(1.5) rotate(20deg);
+    transition:transform 5s ease-in-out;
+}
 
