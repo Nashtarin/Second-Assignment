@@ -101,6 +101,14 @@ body{
     border-radius: 5px;
 
 }
+.videos{
+    display:flex;
+    
+}
+.videos iframe{
+    padding:5px;
+}
+
 .bonus-1{
     background-color:lightblue;
     margin: 70px;
@@ -120,3 +128,76 @@ body{
     padding:25px;
     
 }
+/* -----------------------footer styles------------------------------------- */
+.end{
+    width:483.87px;
+    height:213px;
+    margin:auto;
+     
+     
+}
+footer img{
+    width:400.87px;
+    
+
+}
+.end .icons{
+    margin:30px 160.94px 51px 175.94px;
+    color:grey;
+}
+i{
+    padding-right: 15px;
+}
+.copyright{
+    font-size: 18px;
+    font-family: 400;
+    margin:182px 123.94px 0px;
+
+}
+/* media queries */
+@media only screen and (max-width:688px) {
+    .container{
+        width:100%;
+    }
+    
+    .top{
+        flex-direction: column;
+        align-content: space-around;
+        justify-content: space-between;
+        margin-bottom: 10px;
+        
+    }
+    .heading, .football-image{
+        padding:0;
+        width:300px;
+    }
+    .players{
+        grid-template-columns: repeat(1,1fr);
+        padding:0;
+    }
+    .football-image img{
+        width:350px;
+        height:150px;
+    }
+    .bonus-optional{
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .bonus-ca{
+        padding:0;
+        margin:4px;
+        margin-bottom:25px;
+        
+    }
+    .bonus-ca-image img{
+        width:350px;
+        height:220px;
+    }
+    .videos{
+        flex-direction: column;
+        
+    }
+    iframe{
+         width:200px;
+    }
+    
