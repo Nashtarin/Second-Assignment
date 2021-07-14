@@ -162,11 +162,15 @@ i{
     
     .top{
         flex-direction: column;
+        align-content: space-around;
+        justify-content: space-between;
+        margin-bottom: 10px;
+
         
     }
     .heading, .football-image{
         padding:0;
-        width:300px;
+        width:100px;
     }
     .players{
         grid-template-columns: repeat(1,1fr);
@@ -197,3 +201,4 @@ i{
     iframe{
          width:200px;
     }
+}
