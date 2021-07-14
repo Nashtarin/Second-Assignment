@@ -206,9 +206,13 @@ i{
     }
     .copyright{
         font-size:7px;
+        margin:50px 100px;
         
     }
     footer img{
         width:200px;
+    }
+    .icons{
+        margin:30px 80px 0px;
     }
 }
