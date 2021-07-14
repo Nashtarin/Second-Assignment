@@ -166,6 +166,7 @@ i{
         justify-content: space-between;
         margin-bottom: 10px;
         
+        
        
 
         
@@ -173,6 +174,7 @@ i{
     .heading, .football-image{
         padding:0;
         width:100px;
+        
         
     }
     .players{
