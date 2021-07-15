@@ -29,11 +29,11 @@ body{
     height:44px;
     padding: 10px 24px;
     background-color: #E02C6D;
-    ;
+    
 }
 .fa-arrow-right{
     color: white;
-    font-weight: 700;
+    font-weight: 900;
     padding-left: 7px;
 }
 .football-image img{
@@ -159,13 +159,17 @@ i{
     .container{
         width:100%;
     }
+    #Watch-live{
+        flex-wrap: wrap;
+    }
     
     .top{
         flex-direction: column;
         align-content: space-around;
         justify-content: space-between;
         margin-bottom: 10px;
-        flex-wrap: wrap;
+        height:800px;
+        
         
         
        
@@ -180,7 +184,7 @@ i{
     }
     .football-image{
         position:absolute;
-        top:350px;
+        top:450px;
     }
     .players{
         grid-template-columns: repeat(1,1fr);
