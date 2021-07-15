@@ -178,6 +178,10 @@ i{
         
         
     }
+    .football-image{
+        position:absolute;
+        top:350px;
+    }
     .players{
         grid-template-columns: repeat(1,1fr);
         padding:0;
